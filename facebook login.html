@@ -9,23 +9,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <h1>facebook</h1>
-        <div class="img-container">
+        <div class="fb__logo img-container">
             <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="facebook">
             
         </div>
-        <div class="card">
+        <div class="card-container">
             <h3>Log in to Facebook</h3>
-            <form action="" method="POST">
-                <label class="standard-label" for="contact-email"></label>
-                <input type="text" id="contact-email" placeholder="Email address or phone number" required>
-                <label class="standard-label" for="password"></label>
-                <input type="password" id="password" placeholder="Password">
-                <button type="button" id="loginbutton" class="btn">Log In</button>
-                <a href="#" class="link-primary">Forgotten account?</a>
+            <form action="" method="POST" class="login-form">
+                <div>
+                    <label class="standard-label" for="contact-email"></label>
+                    <input type="text" id="contact-email" placeholder="Email address or phone number" required>
+                </div>
+                <div>
+                    <label class="standard-label" for="password"></label>
+                    <input type="password" id="password" placeholder="Password">
+                </div>
+                <div>
+                    <button type="button" id="loginbutton" class="btn">Log In</button>
+                </div>
+                <div>
+                    <a href="#" class="link-primary">Forgotten account?</a>
+                </div>
                 <hr>
                 <span>or</span>
-                <button type="button" class="btn_secondary">Create New Account</button>
+                <div>
+                    <button type="button" class="btn_secondary">Create New Account</button>
+                </div>
             </form>
         </div>
     </body>
