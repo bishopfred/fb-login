@@ -114,6 +114,7 @@ body {
     width: 49%;
 }
 .wrapper .div2 li .surname {
+    margin-top: 3%;
     width: 49%;
 }
 .wrapper .div2 li input[type="text"] {
