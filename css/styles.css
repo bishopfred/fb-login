@@ -22,19 +22,22 @@ body {
     color: #fff;
     text-align: left;
 }
-.header .img1 {
+/*.header .img1 {
     margin-top: 25px;
     height: 50px;
-    margin-left: 178px;
-    width: 100px;
-}
-/*#header #sitename a
-{
- color:white;
- text-decoration:none;
- font-size:30px;
- font-weight:900;
+    margin-left: ;
+    width: 240px;
+    text-align: left;
 }*/
+.header .sitename {
+    margin-top: 25px;
+}
+.header .sitename a {
+    color:white;
+    text-decoration:none;
+    font-size:30px;
+    font-weight:900;
+}
 .header form {
     margin-top: 15px;
     float: right;
@@ -65,7 +68,7 @@ body {
 }
 .header form input[type="submit"] {
     height: 25px;
-    margin-top: 20px;
+    margin-top: 5px;
     background-color: #084B8A;
     color: white;
     border: 1px solid #08298A;
